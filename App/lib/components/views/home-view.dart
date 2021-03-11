@@ -1,14 +1,7 @@
-import 'package:App/bd/bd.dart';
-import 'package:App/components/models/produto.dart';
-import 'package:App/components/views/botao-view.dart';
-import 'package:App/components/views/principal-view.dart';
 import 'package:App/components/views/produtoCadastrado-view.dart';
-import 'package:App/components/views/registroVenda-view.dart';
-import 'package:App/components/views/venda-view.dart';
 import 'package:App/controller/controller.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:App/bd/bd.dart';
+
 
 class Home extends StatelessWidget {
   Controller controller = Controller();

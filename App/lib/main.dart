@@ -1,13 +1,8 @@
-import 'package:App/components/views/Principal-view.dart';
 import 'package:App/components/views/home-view.dart';
 import 'package:App/components/views/registroVenda-view.dart';
 import 'package:App/components/views/venda-view.dart';
 import 'package:App/controller/controller.dart';
-import 'package:App/providers/produtos.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/navigator.dart';
-import 'package:provider/provider.dart';
-import './components/models/produto.dart';
 
 void main() {
   runApp(MyApp());
